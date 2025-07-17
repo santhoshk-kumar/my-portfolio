@@ -20,7 +20,7 @@ const About = () => (
       </Typography>
     </Paper>
     <a
-  href={`${process.env.REACT_APP_PUBLIC_URL}/Santhosh_Kumar_K_ML_Resume.pdf`}
+  href={`${process.env.PUBLIC_URL}/Santhosh_Kumar_K_ML_Resume.pdf`}
   download="Santhosh_Kumar_K_ML_Resume.pdf"
   style={{ textDecoration: 'none' }}
 >

@@ -4,7 +4,7 @@ import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineC
 import experience from "../data/experience";
 
 const Experience = () => (
-  <Box mt={4}>
+  <Box my={4}>
     <Typography variant="h4" gutterBottom>Experience</Typography>
     <Timeline position="alternate">
       {experience.map((item, i) => (
