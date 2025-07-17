@@ -18,7 +18,11 @@ const Hero = () => (
     <Typography variant="h3" component="h1" gutterBottom>
         Hi, <span role="img" aria-label="waving hand">👋 </span> I am
       </Typography>
-    <Typography variant="h3" gutterBottom>
+    <Typography variant="h3"   sx={{
+    fontWeight: 'bold',
+    color: '#ff4081', // pink highlight
+    textShadow: '2px 2px 4px #000',
+  }} gutterBottom>
       Santhosh Kumar
     </Typography>
     <Typography variant="h6" color="text.secondary">
