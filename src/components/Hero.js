@@ -16,7 +16,7 @@ const Hero = () => (
       sx={{ width: 120, height: 120, mx: "auto", mb: 2 }}
     /> */}
     <Typography variant="h3" component="h1" gutterBottom>
-        Hi <span role="img" aria-label="waving hand">👋 </span> I am
+        Hi, <span role="img" aria-label="waving hand">👋 </span> I am
       </Typography>
     <Typography variant="h3" gutterBottom>
       Santhosh Kumar
