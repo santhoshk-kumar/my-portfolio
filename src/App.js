@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ThemeToggle from "./components/ThemeToggle";
 import { Element } from "react-scroll";
 import BackToTop from "./components/BackToTop";
 import Splash from "./components/Splash"; 
@@ -29,13 +28,8 @@ const MotionContainer = ({ children }) => (
 );
 
 const App = () => {
-  const [mode, setMode] = useState(() => localStorage.getItem("themeMode") || "dark");
-  const theme = getTheme(mode);
+  const theme = getTheme('dark');
   const [loading, setLoading] = useState(true);
-
-  React.useEffect(() => {
-    localStorage.setItem("themeMode", mode);
-  }, [mode]);
   
   React.useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2000);
@@ -56,7 +50,6 @@ const App = () => {
             transition={{ duration: 0.5 }}
           >
             <Header />
-            <ThemeToggle mode={mode} setMode={setMode} />
              <Container maxWidth="lg">
               <Element name="hero">
                 <MotionContainer animation="fade-up"><Hero /></MotionContainer>

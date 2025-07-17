@@ -1,10 +1,10 @@
 import React from "react";
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot } from "@mui/lab";
 import experience from "../data/experience";
 
 const Experience = () => (
-  <>
+  <Box mt={4}>
     <Typography variant="h4" gutterBottom>Experience</Typography>
     <Timeline position="alternate">
       {experience.map((item, i) => (
@@ -21,7 +21,7 @@ const Experience = () => (
         </TimelineItem>
       ))}
     </Timeline>
-  </>
+  </Box>
 );
 
 export default Experience;
