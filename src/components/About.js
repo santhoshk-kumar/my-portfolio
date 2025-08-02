@@ -13,7 +13,7 @@ const About = () => (
     <Typography variant="h4" gutterBottom>About Me</Typography>
     <Paper elevation={3} sx={{ padding: 3 }}>
       <Typography variant="body1" paragraph>
-        I’m a passionate Web Developer with over 3 years of professional experience building scalable web applications using React.js and Node.js. I specialize in crafting responsive, high-performance frontends and robust backends that solve real-world problems
+        I’m a passionate Web Developer with over 3+ years of professional experience building scalable web applications using React.js and Node.js. I specialize in crafting responsive, high-performance frontends and robust backends that solve real-world problems
       </Typography>
       <Typography variant="body1">
        In addition to my full-stack expertise, I’ve worked with Python, particularly Flask, to develop lightweight APIs and backend services. Lately, I've been diving deep into the world of Generative AI, exploring technologies like LangChain, LLMs, and prompt engineering to build intelligent and context-aware applications.

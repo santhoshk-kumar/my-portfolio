@@ -45,8 +45,10 @@ const Header = () => {
   return (
     <AppBar position="sticky">
       <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Santhosh Kumar
+        <Typography variant="h5" sx={{ flexGrow: 10,fontWeight: 'bold',
+        letterSpcacing: 2, fontFamily: 'monospace', color: '#ff4081', 
+        textShadow: '2px 2px 4px #000',}}>
+          SK
         </Typography>
         {isMobile ? (
           <IconButton
